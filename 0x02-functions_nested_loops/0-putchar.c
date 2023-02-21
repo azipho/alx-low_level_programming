@@ -1,11 +1,7 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 
-int main()
+	int _putchar(char c)
 {
-	char theString[9]= "putchar";
-
-	scanf("%c", &theString");
-	return (0);
+	return (write(1, &c, 1));
 }
-
