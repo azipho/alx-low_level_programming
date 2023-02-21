@@ -3,7 +3,9 @@
 
 int main()
 {
-	write(1, "_putchar", strlen("_putchar"));
+	char theString[9]= "putchar";
+
+	scanf("%c", &theString");
 	return (0);
 }
 
