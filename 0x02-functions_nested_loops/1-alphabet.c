@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 
 int main () 
 {
 
-   char ch;
+   char alpha;
 
-   for(ch = 'a' ; ch <= 'z' ; ch++)
-   {
-      putchar(ch);
-   }
+   for(alpha = 'a' ; alpha <= 'z' ; alpha++)
+   
+      putchar(alpha);
+  
    putchar("\n");
    return(0);
 }
